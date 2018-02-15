@@ -1,0 +1,70 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+/*こっちは全体サイズの設定　パソコン・ipadなど　スマホ以外*/
+
+
+
+/*/////////////////////////////////////////////////////////*/
+
+/*header nav*/
+.container{margin-top: 20px;}
+.nav-link p{font-family:"SourceSansPro-Light";}
+
+.navbar-nav ul{position:absolute;}
+.navbar-nav li{margin-right:50px;}
+
+.sns-icon {position:absolute;top:10px;right:20px;}
+	
+
+/*/////////////////////////////////////////////////////////*/
+
+/*toppage*/
+.toppage{background-color:white; width:100%;height:700px;}
+
+/* is_sp スマホ用の画像を表示しないようにの設定　sumahonosettei.cssにはpcのimg表示オフに設定している*/
+.toppageimg{text-align:center;}
+#is_pc{width:650px;margin-top:100px;}
+
+#is_sp {display: none;}
+
+
+/*/////////////////////////////////////////////////////////*/
+
+/*aboutpage*/
+.aboutpage{background-color:skyblue;width:100%;height:600px;}
+
+.aboutpage aboutprofileavi{position:absolute;top:200px;left:100px;}
+#aboutprofileavi img{width:200px;height:auto;}
+
+#sumaho-top-profile-text{display:none;}
+
+/*/////////////////////////////////////////////////////////*/
+
+/*photograph*/
+
+/*スマホ用のimg画像だから display:noneで非表示設定*/
+.photographpage{display:none;}
+
+
+/*/////////////////////////////////////////////////////////*/
+
+/*design/works*/
+
+/*スマホ用のimg画像だから display:noneで非表示設定*/
+.design-works-page{display:none;}
+
+
+/*/////////////////////////////////////////////////////////*/
+
+/*story*/
+
+/*スマホ用のimg画像だから display:noneで非表示設定*/
+.storypage{display:none;}
+
+
+
+
+

@@ -1,0 +1,135 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/*!!!これはスマホ用の設定!!!!!*/
+
+/*/////////////////////////////////////////////////////////*/
+
+/*nav menu font size*/
+	@media screen and (max-width:479px){
+	.container{margin-top: 0px;padding:0;height:0px;}
+	
+	.navbar-toggler-icon{
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#fff' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+	margin-top:15px;}
+						 
+	.navbar-nav{margin-top:40px}
+	.nav-link p{font-family:"SourceSansPro-Light";color:white;}
+	.nav-item {margin-top:10px; margin-left:20px;}
+	}
+	
+	/*snsのアイコンはスマホの方には非表示*/
+	.sns-icon{display:none;}
+
+/*/////////////////////////////////////////////////////////*/
+
+/*toppage/スマホ用設定*/
+	@media screen and (max-width:479px){
+		.toppage{background-color:whitesmoke;width:100%;height:667px;}
+		/*top page img .is_pc pc用の画像は表示しないようにする設定*/
+  		#is_pc {display: none;}
+  		#is_sp {display: block;width:100%;height:auto;}
+		}
+
+/*/////////////////////////////////////////////////////////*/
+
+/*aboutpage/スマホ用設定*/
+	@media screen and (max-width:479px){
+		.aboutpage{background-color:whitesmoke;width:100%;height:400px;}
+		/*profile画像*/
+		#aboutprofileavi img{display:block;width:200px;height:auto;margin:0 auto;}
+		/*top pageでの簡単なプロフィール文章*/
+		#sumaho-top-profile-text{display:block;background-color:whitesmoke;width:75%;margin:0 auto;}
+		#sumaho-top-profile-text p{
+			text-align:center;
+			margin-bottom:15px;
+			font-family: 'mingliu_hkscs.ttf';
+			font-size: 11px;
+			-webkit-transform:scale(0.8);
+			-moz-transform:scale(0.8);
+			-ms-transform:scale(0.8);
+			-o-transform:scale(0.8);
+			transform:scale(0.8);
+			letter-spacing: 1px;}
+	}
+		#nadeko-ni-tobu-link-text{display:block;background-color:whitesmoke;width:75%;margin:0 auto;}
+		#nadeko-ni-tobu-link-text p{
+			text-decoration: underline;
+			text-align:center;
+			margin-bottom:15px;
+			font-family: 'mingliu_hkscs.ttf';
+			font-size: 15px;
+			-webkit-transform:scale(0.8);
+			-moz-transform:scale(0.8);
+			-ms-transform:scale(0.8);
+			-o-transform:scale(0.8);
+			transform:scale(0.8);
+			letter-spacing: 1px;}
+		#nadeko-ni-tobu-link-text a{color:#303030;}
+	
+/*/////////////////////////////////////////////////////////*/
+		
+/*photograph/スマホ用設定*/
+	.photographpage{display:block;background-color:white; width:100%;height:200px;}
+	
+	#photograph-link-img{display:block; width:100%;margin:0 auto; position:relative;}
+	/*more ボタン*/
+	.square_btn {padding: 0.3em 1em;text-decoration: none;
+    			 color: #303030; border:solid 1px ; border-radius: 3px; transition: .4s;
+				 position: absolute; bottom: 90px; left:105px;}
+
+
+	#photograph-link-img img{display:block; width:100%;}
+
+
+
+
+
+/*/////////////////////////////////////////////////////////*/
+		
+/*photograph/スマホ用設定*/
+	.design-works-page{display:block;background-color:white; width:100%;height:200px;}
+	
+	#design-works-link-img{display:block; width:100%;margin:0 auto; position:relative;}
+	/*more ボタン*/
+	.square_btn2 {padding: 0.3em 1em;text-decoration: none;
+    			 color: #FFFFFF; border:solid 1px ; border-radius: 3px; transition: .4s;
+				 position: absolute; bottom: 80px; left:100px;}
+
+
+	#design-works-link-img img{display:block; width:100%;}
+	
+
+/*/////////////////////////////////////////////////////////*/
+
+/*story/スマホ限定*/
+
+	.storypage{display:block; background-color:pink; width:100%; height:200px;}
+
+	#story-link-img{display:block; width:100%;margin:0 auto; position:relative;}
+	/*more ボタン*/
+	.square_btn3 {padding: 0.3em 1em;text-decoration: none;
+    			 color: #252525; border:solid 1px ; border-radius: 3px; transition: .4s;
+				 position: absolute; bottom: 80px; left:120px;}
+
+
+	#story-link-img img{display:block; width:100%;}
+		
+
+/*/////////////////////////////////////////////////////////*/
+
+
+	.contactpage{display:block; background-color:whitesmoke; width:100%; height:200px;}
+
+	#contact-link-img{display:block; width:100%;margin:0 auto; position:relative;}
+	/*more ボタン*/
+	.square_btn4 {padding: 0.3em 1em;text-decoration: none;
+    			 color: #717171; border:solid 1px ; border-radius: 3px; transition: .4s;
+				 position: absolute; top: 100px; left:140px;}
+
+	
+
+/*/////////////////////////////////////////////////////////*/
+		
+		

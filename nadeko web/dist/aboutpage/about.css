@@ -1,0 +1,80 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/*/////////////////////////////////////////////////////////*/
+
+/*これは、トップページ　ハンバーガーメニューからアクセスしたら表示される
+about・プロフィール・概要欄のページです!!*/
+
+/*/////////////////////////////////////////////////////////*/
+
+
+/*これはスマホの画面サイズでアクセスされた時に表示されるスマホサイズの設定！！*/
+/*about.htmlにスマホサイズでアクセスしたらこのスタイルシートが適用されるように設定済み！*/
+
+/*nav menu font size*/
+	@media screen and (max-width:479px){
+	.container{margin-top: 0px;padding:0;height:0px;}
+	
+	.navbar-toggler-icon{
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#fff' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+	margin-top:15px; }
+						 
+	.navbar-nav{margin-top:40px;}
+	.nav-link p{font-family:"SourceSansPro-Light";color: #272727;}
+	.nav-item {margin-top:10px; margin-left:20px;}
+	}
+	
+	/*snsのアイコンはスマホの方には非表示*/
+	.sns-icon{display:none;}
+
+/*/////////////////////////////////////////////////////////*/
+
+
+
+.profile-haikei{display:inline-block; background-color:whitesmoke;width:100%;height:900px; margin:0 auto; }
+
+	#profile-img img{display:block; width:200px;height:auto; margin:0 auto; text-align: center; margin-top:70px}
+
+	/*まとめるときは、それぞれの高さを指定した後グループの高さも同じにしないと崩れる。*/
+	.profil-text-class-position{width:260px;height:250px; margin: 0 auto; margin-top:30px;}
+			#profile-nenpyou{width:60px;height:150px; float:left;background-color:none;}
+			#profile-nenpyou p{text-align:right; margin-bottom:15px;
+								font-family: 'mingliu_hkscs.ttf';font-size: 12px;
+								-webkit-transform:scale(0.8);
+								-moz-transform:scale(0.8);
+								-ms-transform:scale(0.8);
+								-o-transform:scale(0.8);
+								transform:scale(0.8);
+								letter-spacing: 1px;}
+			#profile-nenpyou-text{width:190px;height:150px;background-color:none;float:right; margin-left:10px;}
+			#profile-nenpyou-text p{text-align:left; margin-bottom:15px;
+									font-family: 'mingliu_hkscs.ttf';font-size: 12px;
+									-webkit-transform:scale(0.8);
+									-moz-transform:scale(0.8);
+									-ms-transform:scale(0.8);
+									-o-transform:scale(0.8);
+									transform:scale(0.8);
+									letter-spacing: 1px;}
+
+
+
+			#profile-setumei{width:260px; height:230px; background-color:none; margin:0 auto; margin-top:-50px;}
+			#profile-setumei p{text-align:left; margin-bottom:8px;
+							font-family: 'mingliu_hkscs.ttf';font-size: 10px;
+							-webkit-transform:scale(0.8);
+							-moz-transform:scale(0.8);
+							-ms-transform:scale(0.8);
+							-o-transform:scale(0.8);
+							transform:scale(0.8);
+							letter-spacing: 1px;}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/*/////////////////////////////////////////////////////////*/
+
+/*これは、トップページ　ハンバーガーメニューからアクセスしたら表示される
+about・プロフィール・概要欄のページです!!*/
+
+/*/////////////////////////////////////////////////////////*/
+
+
+/*これはスマホの画面サイズでアクセスされた時に表示されるスマホサイズの設定！！*/
+/*about.htmlにスマホサイズでアクセスしたらこのスタイルシートが適用されるように設定済み！*/
+
+/*nav menu font size*/
+	@media screen and (max-width:479px){
+	.container{margin-top: 0px;padding:0;height:0px;}
+	
+	.navbar-toggler-icon{
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#fff' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+	margin-top:15px; }
+						 
+	.navbar-nav{margin-top:40px;}
+	.nav-link p{font-family:"SourceSansPro-Light";color: #272727;}
+	.nav-item {margin-top:10px; margin-left:20px;}
+	}
+	
+	/*snsのアイコンはスマホの方には非表示*/
+	.sns-icon{display:none;}
+
+/*/////////////////////////////////////////////////////////*/
+
+
+
+.one{display:inline-block; background-color:whitesmoke;width:100%;height:750px; margin:0 auto; }
+
+#komento {width:100%;height:auto;}
+#komento p{margin-top:200px; left:50px; text-align:center;}
+
+
+
+
+
+
+
+
+
